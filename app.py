@@ -13,5 +13,12 @@ def home():
 def about():
   return "about"
 
+@app.route('/ab')
+
+def ab():
+  return "don"
+
+
+
 if __name__=="__main__":
   app.run(debug=True)
